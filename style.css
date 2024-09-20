@@ -1,16 +1,38 @@
 @charset "UTF-8";
 
 * {
-    margin: 0px;
-    padding: 0px;
+   padding: 0px;
+   margin: 0px;
 }
 
-body {
-    background-image: url(imagens/gtrr35.jpg);
-    background-repeat: no-repeat;
-    
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 19px;
 }
 
-h2.1 {
-    
+h2.um {
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    padding: 20px;
+}
+
+div.primeiro {
+    display: flex;
+}
+
+img.gtr1 {
+    width: 960px;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+img.gtr2 {
+    width: 450px;
+    display: block;
+    margin: 0 auto;
 }
