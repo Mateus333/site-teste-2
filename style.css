@@ -5,6 +5,10 @@
    margin: 0px;
 }
 
+body {
+    background-color: rgb(92, 92, 92);
+}
+
 h1 {
     text-align: center;
     padding-top: 20px;
@@ -16,13 +20,19 @@ h2.um {
     padding: 20px;
 }
 
+h2.dois {
+    text-align: center;
+}
+
 p {
     padding: 20px;
 }
 
 div.primeiro {
     display: flex;
+    justify-content: center;
 }
+
 
 img.gtr1 {
     width: 960px;
@@ -34,5 +44,12 @@ img.gtr1 {
 img.gtr2 {
     width: 450px;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
 }
